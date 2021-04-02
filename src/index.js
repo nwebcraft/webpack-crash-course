@@ -1,13 +1,5 @@
 import _ from 'lodash'
-import { NAME, NiJou } from './utilities'
-import * as utilities from './utilities'
-import Tiger from './utilities'
-
-console.log(NiJou(13))
-console.log(NAME)
-console.log(utilities.NAME)
-console.log(utilities.NiJou(12))
-console.log(Tiger.say())
+import './style.css'
 
 function component() {
   const element = document.createElement('div');
@@ -17,4 +9,5 @@ function component() {
 }
 
 document.body.appendChild(component());
+document.body.classList.add('haikei')
 
