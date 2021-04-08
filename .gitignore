@@ -83,7 +83,8 @@ typings/
 # dist
 
 # 追加
-dist/main.js
+# dist/main.js
+/dist
 
 # Gatsby files
 .cache/
